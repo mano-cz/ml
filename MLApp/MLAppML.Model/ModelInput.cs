@@ -11,8 +11,6 @@ namespace MLAppML.Model
 
 
         [ColumnName("SentimentText"), LoadColumn(1)]
-        public string SentimentText { get; set; }
-
-
+        public string SentimentText { get; set; } = default!;
     }
 }
